@@ -1,6 +1,6 @@
 {
   "name": "amino-spec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple class for representing an amino service",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,29 @@
     "type": "git",
     "url": "git://github.com/amino/amino-spec.git"
   },
-  "author": "Carlos Rodriguez",
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
   "license": "MIT",
   "dependencies": {
     "idgen": "~1.1.1"
   },
   "devDependencies": {
     "mocha": "*"
+  },
+  "homepage": "https://github.com/amino/amino",
+  "keywords": [
+    "load-balancing",
+    "failover",
+    "cluster",
+    "scalability",
+    "performance",
+    "service",
+    "pub/sub",
+    "high-availability",
+    "cloud",
+    "redundancy",
+    "ipc"
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
   }
 }
