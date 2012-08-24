@@ -1,6 +1,6 @@
 {
   "name": "amino-spec",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple class for representing an amino service",
   "main": "index.js",
   "scripts": {
