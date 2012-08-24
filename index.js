@@ -35,4 +35,9 @@ Spec.prototype.toString = function() {
   return this.id;
 };
 
-module.exports = Spec;
+module.exports = exports = Spec;
+
+exports.attach = function (options) {
+  var amino = this;
+  amino.Spec = Spec;
+};
